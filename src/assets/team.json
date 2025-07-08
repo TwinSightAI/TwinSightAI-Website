@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Joseph Ndungu",
+    "title": "Team Lead",
+    "image": "/images/jose.jpg",
+    "linkedin": "https://linkedin.com/in/josephndungu",
+    "github": "https://github.com/josephndungu"
+  },
+  {
+    "name": "Dorica Mbula",
+    "title": "Front-end Developer",
+    "image": "/images/dee.jpg",
+    "linkedin": "https://www.linkedin.com/in/dorryl-mbula-31b569276",
+    "github": "https://github.com/josephndungu"
+  },
+  {
+    "name": "Felix Oyoo",
+    "title": "UI/UX Designer",
+    "image": "/images/f.jpg",
+    "linkedin": "https://linkedin.com/in/josephndungu",
+    "github": "https://github.com/josephndungu"
+  },
+  {
+    "name": "Naftali Nassir",
+    "title": "Mass Communication",
+    "image": "/images/nassir.jpg",
+    "linkedin": "https://linkedin.com/in/josephndungu",
+    "github": "https://github.com/josephndungu"
+  },
+  {
+    "name": "Willy Mutunga",
+    "title": "Backend Developer",
+    "image": "/images/wil.jpg",
+    "linkedin": "https://linkedin.com/in/Willy-Mutunga",
+    "github": "https://github.com/Willy-Mutunga"
+  },
+  {
+    "name": "Kelvin Uhuru",
+    "title": "Software Engineer",
+    "image": "/images/kh.jpg",
+    "linkedin": "https://www.linkedin.com/in/kelvin-uhuru",
+    "github": "https://github.com/josephndungu"
+  },
+  {
+    "name": "Eric Thomas",
+    "title": "Machine Learning Specialist",
+    "image": "/images/er.jpg",
+    "linkedin": "https://linkedin.com/in/josephndungu",
+    "github": "https://github.com/josephndungu"
+  },
+  {
+    "name": "Stephanie Bakhita",
+    "title": "Geospatial Engineer",
+    "image": "/images/bkhita.jpg",
+    "linkedin": "https://linkedin.com/in/josephndungu",
+    "github": "https://github.com/josephndungu"
+  }
+]
