@@ -18,8 +18,7 @@ const HeroSection = () => {
           <span className="text-blue-400">Sustainable Decisions</span>
         </h2>
         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mb-6">
-          Integrating sensor and satellite data to create smart, sustainable
-          environments.
+          Real-Time Monitoring for Calamity-Prone Areas
         </p>
         <a
           href="https://naftalinassir01.wixsite.com/nassir-bloggs-and-ar/post/from-jhub-africa-to-climate-innovation-twinsight-ai-tackles-real-world-environmental-challenges"
