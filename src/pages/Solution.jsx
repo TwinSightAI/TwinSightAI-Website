@@ -3,24 +3,19 @@ import React from "react";
 const solutions = [
   {
     icon: "🧩",
-    title: "Data Silos",
-    desc: "We use a centralized, cloud-based platform to integrate diverse environmental data sources—eliminating data fragmentation and enabling unified decision-making. This approach ensures that all stakeholders, from policymakers to local communities, have real-time access to accurate and comprehensive data insights that inform proactive environmental strategies.",
+    title: "Real-time Monitoring and Data Integration",
+    desc: "Digital twins integrate real-time data from various sources, such as rainfall sensors, river gauges, and weather forecasts, providing a comprehensive view of the flood situation. This allows for continuous monitoring of water levels, flow rates, and other relevant parameters, enabling timely detection of potential flood events",
 
   },
   {
     icon: "💸",
-    title: "High Operational Costs",
-    desc: "By automating data collection using real-time sensors, satellite feeds, and Conduit Empathy Sensors, we reduce manual workload and operational expenses. This allows for continuous environmental monitoring at a fraction of traditional costs, enabling broader coverage and timely interventions without relying heavily on human resources.",
+    title: "Advanced Simulation and Prediction",
+    desc: "Digital twins can simulate flood scenarios, including different rainfall intensities, dam breaches, and urban runoff, to assess potential impacts and identify vulnerable areasThese simulations help predict flood propagation, assess potential damage, and evaluate the effectiveness of different mitigation strategies.For example, by simulating the impact of a dam failure, authorities can anticipate the extent of flooding and prepare accordingly.",
   },
   {
     icon: "🔗",
-    title: "Integration Complexity",
-    desc: "We use standardized APIs for seamless communication between Conduit Empathy Sensors and other platforms. This interoperability removes vendor lock-in, simplifies integration with legacy systems, and accelerates the deployment of new services, making the entire ecosystem more adaptive and efficient.",
-  },
-  {
-    icon: "💻",
-    title: "Technical Infrastructure Limitations",
-    desc: "Cloud-native architecture plus Conduit Empathy Sensors ensures scalable, low-cost deployment. This model supports rapid expansion into remote or underserved areas, minimizes the need for expensive hardware, and enhances the reliability of environmental data collection even in challenging terrains.",
+    title: "Enhanced Decision-Making and Emergency Response",
+    desc: "The insights gained from digital twin simulations enable informed decision-making regarding flood preparedness, response, and recovery. By visualizing potential flood impacts, emergency responders can optimize evacuation routes, allocate resources effectively, and minimize casualties. Digital twins can also facilitate communication and coordination among different stakeholders, including government agencies, emergency services, and the public.",
   },
 ];
 
