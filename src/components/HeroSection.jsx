@@ -1,24 +1,30 @@
 import React from "react";
-import Gis from "../assets/Gis.jpg";
+import backgroundVideo from "../assets/earth.mp4"; // Rename as needed
 
 const HeroSection = () => {
   return (
     <section className="relative h-screen bg-black text-white overflow-hidden">
-      {/* Background Image */}
-      <img
-        src={Gis}
-        alt="Earth Network"
-        className="absolute inset-0 w-full h-full object-cover opacity-25"
-      />
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-30 z-0"
+      >
+        <source src={backgroundVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-      {/* Overlay */}
+      {/* Text Overlay */}
       <div className="relative z-10 flex flex-col justify-center items-center text-center h-full px-6 max-w-4xl mx-auto">
         <h2 className="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight mb-6">
           Real-Time Monitoring for <br />
           <span className="text-blue-400">Sustainable Decisions</span>
         </h2>
         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mb-6">
-          Real-Time Monitoring for Calamity-Prone Areas
+          Integrating sensor and satellite data to create smart, sustainable
+          environments.
         </p>
         <a
           href="https://naftalinassir01.wixsite.com/nassir-bloggs-and-ar/post/from-jhub-africa-to-climate-innovation-twinsight-ai-tackles-real-world-environmental-challenges"
