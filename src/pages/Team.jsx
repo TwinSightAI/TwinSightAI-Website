@@ -30,6 +30,13 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/willy-mutunga",
     github: "https://github.com/Willy-Mutunga",
   },
+   {
+    name: "Antoinette Wangari",
+    role: "Geospatial Engineer",
+    image: wilImg,
+    linkedin: "https://www.linkedin.com/in/antoinettewangari",
+    github: "https://github.com/AntoinetteWangari1",
+  },
   {
     name: "Felix Oyoo",
     role: "UI/UX Designer",
