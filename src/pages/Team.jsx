@@ -33,7 +33,7 @@ const teamMembers = [
    {
     name: "Antoinette Wangari",
     role: "Geospatial Engineer",
-    image: wilImg,
+    image: antoinetteImg,
     linkedin: "https://www.linkedin.com/in/antoinettewangari",
     github: "https://github.com/AntoinetteWangari1",
   },
