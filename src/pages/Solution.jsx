@@ -1,31 +1,16 @@
 import React, { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardHeader, CardTitle, CardContent } from "../components/ui/card";
 import { Link } from "react-router-dom";
 
 import { 
-  Cpu, 
-  Satellite, 
-  Cloud, 
-  Box, 
-  Brain, 
-  Monitor, 
-  GraduationCap, 
-  BarChart3,
-  Wifi,
-  Database,
-  Globe,
   Waves,
   AlertTriangle,
   Map,
-  Target,
-  Users
+  Target
 } from 'lucide-react';
-  
-
 
 const Solutions = () => {
-  const [hovered, setHovered] = useState<number | null>(null);
+  const [hovered, setHovered] = useState(null);
 
   return (
     <section id="Solutions" className="py-20">
@@ -55,18 +40,19 @@ const Solutions = () => {
             <div className="border-t border-blue-800">
               {hovered === 0 && (
                 <CardContent className="text-center text-sm py-4 animate-fade-in">
-                 We deploy a network of IoT sensors across flood-prone regions to continuously monitor river depth, rainfall, soil moisture, and terrain changes. This data is sent instantly to a cloud system, where AI models analyze environmental patterns. The result is a live feed of conditions, allowing stakeholders to detect flood risks as they emerge .
-        <div className="mt-4">
-  <Link to="/solutionE">
-    <button className="bg-white text-blue-900 px-4 py-2 rounded hover:bg-blue-100 transition-colors">
-      Learn More
-    </button>
-  </Link>
-</div>
-                 </CardContent> )}
+                  We deploy a network of IoT sensors across flood-prone regions to continuously monitor river depth, rainfall, soil moisture, and terrain changes. This data is sent instantly to a cloud system, where AI models analyze environmental patterns. The result is a live feed of conditions, allowing stakeholders to detect flood risks as they emerge.
+                  <div className="mt-4">
+                    <Link to="/solutionE">
+                      <button className="bg-white text-blue-900 px-4 py-2 rounded hover:bg-blue-100 transition-colors">
+                        Learn More
+                      </button>
+                    </Link>
+                  </div>
+                </CardContent>
+              )}
             </div>
           </Card>
-          
+
           {/* Digital Twin Simulation */}
           <Card
             className="bg-green-900 text-white hover:scale-105 transition-transform duration-300 flex flex-col"
@@ -82,15 +68,14 @@ const Solutions = () => {
             <div className="border-t border-green-800">
               {hovered === 2 && (
                 <CardContent className="text-center text-sm py-4 animate-fade-in">
-                 We create dynamic virtual replicas of vulnerable environments using GIS and sensor data. These Digital Twins allow authorities to simulate floods before they happen — predicting how water will move, what infrastructure is at risk, and how communities might be affected. It's like test-driving a disaster response, but without the disaster.
-          <div className="mt-4">
-  <Link to="/solutionF">
-    <button className="bg-white text-green-900 px-4 py-2 rounded hover:bg-green-100 transition-colors">
-      Learn More
-    </button>
-  </Link>
-</div>
-
+                  We create dynamic virtual replicas of vulnerable environments using GIS and sensor data. These Digital Twins allow authorities to simulate floods before they happen — predicting how water will move, what infrastructure is at risk, and how communities might be affected. It's like test-driving a disaster response, but without the disaster.
+                  <div className="mt-4">
+                    <Link to="/solutionF">
+                      <button className="bg-white text-green-900 px-4 py-2 rounded hover:bg-green-100 transition-colors">
+                        Learn More
+                      </button>
+                    </Link>
+                  </div>
                 </CardContent>
               )}
             </div>
@@ -112,22 +97,20 @@ const Solutions = () => {
               {hovered === 1 && (
                 <CardContent className="text-center text-sm py-4 animate-fade-in">
                   Using predictive AI trained on years of flood data and live environmental feeds, our system forecasts where and when a flood might strike. Once thresholds are exceeded, automated alerts are dispatched via SMS, dashboards, and public systems empowering emergency responders and residents to act early and confidently.
-            <div className="mt-4">
-  <Link to="/solutionA">
-    <button className="bg-white text-red-900 px-4 py-2 rounded hover:bg-red-100 transition-colors">
-      Learn More
-    </button>
-  </Link>
-</div>
+                  <div className="mt-4">
+                    <Link to="/solutionA">
+                      <button className="bg-white text-red-900 px-4 py-2 rounded hover:bg-red-100 transition-colors">
+                        Learn More
+                      </button>
+                    </Link>
+                  </div>
                 </CardContent>
               )}
             </div>
           </Card>
-       
-        
-
         </div>
-            {/* Call to Action */}
+
+        {/* Call to Action */}
         <div className="mt-16">
           <Card className="border-border/50 shadow-[var(--shadow-lg)] bg-gradient-to-r from-tech-blue-light to-nature-green-light">
             <CardContent className="text-center py-12">

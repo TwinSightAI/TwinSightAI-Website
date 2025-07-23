@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
-import About from "../components/About";
-import Problem from "../components/Problem";
-import Solution from "../components/Solution";
+import About from "../pages/About";
+import Problem from "../pages/Problem";
+import Solution from "../pages/Solution";
 import DemoVideo from "../components/DemoVideo";
-import Team from "../components/Team";
+import Team from "../pages/Team";
 
 const Home = () => {
   return (
